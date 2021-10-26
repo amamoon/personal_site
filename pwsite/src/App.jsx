@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import React, { useState } from 'react';
 import Topbar from './components/topbar/Topbar';
 import Intro from './components/intro/Intro';
@@ -16,9 +15,9 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className='sections'>
         <Intro/>
-        <Contact/>
         <Portfolio/>
         <Works/>
+        <Contact/>
       </div>
     </div>
   );
